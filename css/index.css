@@ -187,8 +187,9 @@ li{
 
 .green-dots, .orange-ball, .green-ball{
     position: absolute;
-    bottom: 15%;
-    left: 40px;
+    bottom: 2rem;
+    left: 5rem;
+    z-index: 30;
 }
 
 .orange-ball{
@@ -298,11 +299,15 @@ li{
     }
 
     .show-mobile{
-        display: block;
+        display: flex !important;
     }
 
     .show-desktop{
-        display: none;
+        display: none !important;
+    }
+
+    .navbar-expand-md .navbar-toggler{
+        display: flex !important;
     }
 
 }
