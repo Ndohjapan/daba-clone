@@ -79,6 +79,8 @@ li{
     text-decoration: none;
     color: white;
     background: var(--secondary-color);
+    box-shadow: inset 1px 1px 7px rgba(255, 255, 255, 0.418), 
+    inset -1px -1px 7px  rgba(255, 255, 255, 0.418);
 }
 
 /* Navigation Menu */
@@ -106,6 +108,8 @@ li{
 
 .login-btn:hover{
     background-color: var(--primary-color-1);
+    box-shadow: inset 1px 2px 7px rgba(255, 255, 255, 0.418), 
+    inset -1px -2px 7px  rgba(255, 255, 255, 0.418);
 }
 
 
@@ -179,6 +183,11 @@ li{
 
 .submit-section button:hover{
     background: var(--primary-color-1);
+}
+
+.submit-section button:focus{
+    outline: none;
+    border: none;
 }
 
 .side-image{
